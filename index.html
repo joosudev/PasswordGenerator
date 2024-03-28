@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator | josudev</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="/icon_1.webp">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Password Generator</h2>
+        <div class="slider_main">
+            <input type="range" value="8" min="1" max="25" class="slider"
+                oninput="this.nextElementSibling.value = this.value" id="slider">
+            <output>8</output>
+        </div>
+        <button id="generate" class="action-btn">
+            Generar <i class="fab fa-keycdn"></i>
+        </button>
+        <label>Incluir Caracter Especial
+            <input type="checkbox" checked="checked" id="checkbox">
+            <span class="checkmark"></span>
+        </label>
+
+
+        <div class="output">
+            <h5 id="pwd_txt"><span>Click en el botón para copiar</span></h5>
+            <button id="clipboard" class="clipboard">
+                <i class="fas fa-clipboard"></i>
+            </button>
+        </div>
+        <span id="copy_text"></span>
+    </div>
+    <footer>
+        <p>
+            Joosudev - Este proyecto está bajo la Licencia MIT &copy; <span id="currentYear"></span>
+        </p>
+        <a href="https://github.com/joosudev/controlgastos.git" target="_blank" rel="noopener noreferrer">
+            <img src="https://img.icons8.com/material-rounded/48/ffffff/github.png" alt="GitHub" class="github-icon">
+        </a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
