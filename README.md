@@ -1,5 +1,5 @@
 # PasswordGenerator
-**Descipcion:** Es una herramienta poderosa para generar contraseñas seguras y confiables, proporcionando una capa adicional de seguridad para tus cuentas en línea y datos sensibles.
+**Descipcion:** Web App poderosa para generar contraseñas seguras y confiables, proporcionando una capa adicional de seguridad para tus cuentas en línea y datos sensibles.
 
 ## Utilización
 
